@@ -12,7 +12,7 @@ body {
     background-color: #1F2937;
     color: white;
     padding: 12px;
-    border: 4px solid blue;
+    /*border: 4px solid blue;*/
     display: flex;
     justify-content: space-between;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .hero-text {
-    color: white;
+    color: #F9FAF8;
     height: 200px;
     width: 300px;
     padding: 10px;
@@ -49,21 +49,25 @@ body {
     height: 200px;
     width: 300px;
     padding: 10px;
+    text-align: center;
+    align-content: center;
 }
 
 .item {
     background-color: peachpuff;
     border: 4px solid salmon;
     height: 48px;
+    font-weight: bolder;
     flex: 1;
     margin: 4px;
+    text-align: center;
 
 }
 
 .information-container {
-    background-color: white;
+    background-color: #F9FAF8;
     padding: 12px;
-    border: 4px solid blue;
+    /*border: 4px solid blue;*/
     height: 400px;
     display: flex;
     justify-content: center;
@@ -71,8 +75,8 @@ body {
 }
 
 .card {
-    background-color: white;
-    border: 1px solid black;
+    background-color: #F9FAF8;
+    /*border: 1px solid black;*/
     height: 200px;
     width: 100px;
     margin: 4px;
@@ -80,10 +84,22 @@ body {
     flex-direction: column;
 }
 
+.signup {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    height: 25px;
+    width: 75px;
+    border-style: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    text-align: center;
+}
+
 .picture {
-    border: 4px solid #3882f6;
+    border: 2px solid #3882f6;
     height: 100px;
     width: 100px;
+    border-radius: 15px;
 }
 
 .text {
@@ -105,4 +121,50 @@ body {
     border: 1px solid #fff;
     width: 300px;
     height: 300px;
+  }
+
+  .quote-section {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quote-text {
+    border: 1px solid black;
+    height: 300px;
+    width: 700px;
+    text-align: justify;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    
+  }
+
+  .author {
+    text-align: right;
+  }
+
+    .call-to-action-container {
+        background-color: #3882f6;
+        display: flex;
+        justify-content: center;
+    }
+
+  .call-to-action {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    
+  }
+
+  .signup2 {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    height: 25px;
+    width: 75px;
+    border: 1px solid #F9F1F8;
+    border-radius: 3px;
+    margin-top: 10px;
+    text-align: center;
   }
